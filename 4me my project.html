@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>V Job Website</title>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<style>
+.header
+{
+border:solid gray 0.5px;
+height:120px;
+background-image:url("bl.jpg");
+background-image:no-repeat;
+opacity:0.75 ;
+margin:2.5px;
+padding-top:15px;
+padding-bottom:20px;
+  }
+  #dis{
+  text-align:center;
+  color:white;
+  font-family:Verdana ;
+  font-size:13px;
+  }
+  #dis:hover{
+  color:red;
+  }
+  
+.logo{
+width:100%;
+height:100%;
+border:solid gray 0.5px;
+}
+
+ul li a{
+color:white;
+border: solid white 0.5px;
+border-radius:20px ;
+font-family:sans-serif;
+margin:15px;
+
+
+
+
+}
+ul li a:hover
+{
+color:blue;
+}
+.bbb
+{
+width:1350px;
+height:1350px;
+}
+.mar{
+background-color:black;
+color:white;
+}
+
+.btn
+{
+color:white;
+width:68px;
+border-radius:20px;
+border:2px solid gray;
+}
+
+
+.form{
+background:#13578e;
+border-radius:20px;
+border:2px solid gray;
+width:235px;
+height:350px;
+padding:25px;
+margin:100px;}
+
+.bg
+{
+background-image:url("bbb.jpg");
+opacity:0.75;
+}
+.form{
+color:black;
+}
+
+{
+background-color:pink;
+}
+.col-sm-6{
+color:white;
+font-family:serif;
+}
+</style>
+</head>
+<body>
+<header class="header">
+
+<nav class="navbar navbar-style "> 
+<div class="container">
+<div class="navbar-header">
+<a href=""><span><img src="2v.jpg" class="logo"></span></a>
+<div id="dis">V Job Website <sub>Change ur life</sub></div>
+
+</div>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav-item"><a class="nav-link" href="https://www.naukri.com" target="-black" title="go to website">Naukri</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/" target="-black" title="go to website">Linked In</a></li>
+<li class="nav-item"><a class="nav-link" href="https://internshala.com/" target="-black" title="go to website">Internshala</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.indeed.com" target="-black" title="go to website">Indeed</a></li>
+<li class="nav-item"><a  class="nav-link" href="https://www.monsterindia.com" target="-black" title="go to website">Monster</a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+<marquee width="100%" direction="right" height="15px" class="mar" scrollamount="3"> V Job Website@ contact:7702713824 , 8919157943</marquee>
+<div class="container-fluid bg">
+<div class="row">
+   
+<div class="col-sm-6 ">
+ 
+ 
+ <form class="form ">
+ 
+<h3> <u>LOGIN </u></h3><br>
+<label><b>Username:</b></label><br>
+<input type="username" id="fn"  name="username" ><br><br>
+<label><b>Password:</b></label><br>
+<input type="password" id="ps"  name="password" ><br><br><br>
+
+<button type="button" class="btn btn-primary " onclick="s()" target="_block">Submit</button>
+</form>
+
+</div>
+
+<div class="col-sm-6">
+<br><br><br><br><br><br>
+
+<h1 align="center">V Job Website<h1>
+<h4 align="center">Change ur life </h4>
+<h6 align="center" ><b>Opportunities dont't happen,you create theme.</b></h5>
+<h3>For more Information my website <a href="#">www.vjobwebsite.com</a></h3>
+<h4 align="center" >If you Intrested go for login and fill the Job Application</h4>
+<h5 align="center" ><u>username:vjobwebsite</u></h5>
+<h5 align="center" ><u>password:123456</u></h5>
+</div>
+
+</div>
+</div>
+
+<script>
+function s(){
+var user=document.getElementById("fn").value;
+var pass=document.getElementById("ps").value;
+if(user=="vjobwebsite" & pass=="123456")
+{
+location.assign("file:///C:/Users/Vijay%20T/Desktop/js%20file/loging%20successfully.html");
+}
+else
+{
+window.alert("Please Enter valid number ");
+}
+}
+</script>
+</body>
+</html>
